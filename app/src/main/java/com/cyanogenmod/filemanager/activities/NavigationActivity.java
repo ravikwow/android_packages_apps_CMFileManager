@@ -38,6 +38,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Parcelable;
 import android.os.storage.StorageVolume;
+import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -96,10 +98,8 @@ import com.cyanogenmod.filemanager.ui.dialogs.ActionsDialog;
 import com.cyanogenmod.filemanager.ui.dialogs.FilesystemInfoDialog;
 import com.cyanogenmod.filemanager.ui.dialogs.InitialDirectoryDialog;
 import com.cyanogenmod.filemanager.ui.dialogs.FilesystemInfoDialog.OnMountListener;
-import com.cyanogenmod.filemanager.ui.widgets.ActionBarDrawerToggle;
 import com.cyanogenmod.filemanager.ui.widgets.Breadcrumb;
 import com.cyanogenmod.filemanager.ui.widgets.ButtonItem;
-import com.cyanogenmod.filemanager.ui.widgets.DrawerLayout;
 import com.cyanogenmod.filemanager.ui.widgets.NavigationCustomTitleView;
 import com.cyanogenmod.filemanager.ui.widgets.NavigationView;
 import com.cyanogenmod.filemanager.ui.widgets.NavigationView.OnNavigationRequestMenuListener;
@@ -2465,8 +2465,8 @@ public class NavigationActivity extends Activity
 
         // - Navigation drawer
         v = findViewById(R.id.history_empty);
-        theme.setTextColor(this, (TextView)v, "text_color"); //$NON-NLS-1$
-        mDrawerToggle.setDrawerImageResource(theme.getResourceId(this, "drawer_icon"));
+        theme.setTextColor(this, (TextView) v, "text_color"); //$NON-NLS-1$
+        mDrawerToggle.setHomeAsUpIndicator(theme.getResourceId(this, "drawer_icon"));
 
         for (int i=0; i<mDrawerHistory.getChildCount(); i++) {
             View item = mDrawerHistory.getChildAt(i);

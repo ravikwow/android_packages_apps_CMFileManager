@@ -29,6 +29,7 @@ android {
 }
 
 dependencies {
+    compile 'com.android.support:appcompat-v7:22.2.0'
     compile project(':libraries:truezip')
     compile project(':libraries:android-syntax-highlight')
     compile project(':libraries:color-picker-view')

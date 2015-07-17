@@ -100,7 +100,7 @@ public class SelectionView extends LinearLayout {
 
         // Obtain the duration of the effect
         this.mEffectDuration =
-                getContext().getResources().getInteger(android.R.integer.config_shortAnimTime);
+                getContext().getResources().getInteger(R.integer.config_shortAnimTime);
 
         addView(content);
     }
