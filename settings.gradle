@@ -1,0 +1,4 @@
+include ':app'
+include ':libraries:truezip'
+include ':libraries:android-syntax-highlight'
+include ':libraries:color-picker-view'

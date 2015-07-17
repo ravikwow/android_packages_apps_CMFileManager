@@ -1,0 +1,302 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* Android.mk
+* CHANGELOG.md
+* CleanSpec.mk
+* MODULE_LICENSE_APACHE2
+* NOTICE
+* README.md
+* proguard.flags
+* tests/
+* tests/.gitignore
+* tests/Android.mk
+* tests/proguard.flags
+* themes/
+* themes/README.md
+* themes/res/
+* themes/res/drawable-hdpi/
+* themes/res/drawable-hdpi/btn_holo_dark_check_off_normal.png
+* themes/res/drawable-hdpi/btn_holo_dark_check_on_normal.png
+* themes/res/drawable-hdpi/btn_holo_dark_check_on_normal_inverted.png
+* themes/res/drawable-hdpi/divider_horizontal_dark_opaque.9.png
+* themes/res/drawable-hdpi/divider_vertical_dark_opaque.9.png
+* themes/res/drawable-hdpi/ic_holo_dark_accept.png
+* themes/res/drawable-hdpi/ic_holo_dark_bookmarks.png
+* themes/res/drawable-hdpi/ic_holo_dark_close.png
+* themes/res/drawable-hdpi/ic_holo_dark_config.png
+* themes/res/drawable-hdpi/ic_holo_dark_contextual_action.png
+* themes/res/drawable-hdpi/ic_holo_dark_copy.png
+* themes/res/drawable-hdpi/ic_holo_dark_delete.png
+* themes/res/drawable-hdpi/ic_holo_dark_expander_close.png
+* themes/res/drawable-hdpi/ic_holo_dark_expander_open.png
+* themes/res/drawable-hdpi/ic_holo_dark_filesystem.png
+* themes/res/drawable-hdpi/ic_holo_dark_fs_locked.png
+* themes/res/drawable-hdpi/ic_holo_dark_fs_unlocked.png
+* themes/res/drawable-hdpi/ic_holo_dark_fs_warning.png
+* themes/res/drawable-hdpi/ic_holo_dark_history.png
+* themes/res/drawable-hdpi/ic_holo_dark_home.png
+* themes/res/drawable-hdpi/ic_holo_dark_layout.png
+* themes/res/drawable-hdpi/ic_holo_dark_navigation_drawer.png
+* themes/res/drawable-hdpi/ic_holo_dark_overflow.png
+* themes/res/drawable-hdpi/ic_holo_dark_print.png
+* themes/res/drawable-hdpi/ic_holo_dark_remote.png
+* themes/res/drawable-hdpi/ic_holo_dark_save.png
+* themes/res/drawable-hdpi/ic_holo_dark_sdcard.png
+* themes/res/drawable-hdpi/ic_holo_dark_search.png
+* themes/res/drawable-hdpi/ic_holo_dark_secure.png
+* themes/res/drawable-hdpi/ic_holo_dark_settings.png
+* themes/res/drawable-hdpi/ic_holo_dark_sort_alphabetically.png
+* themes/res/drawable-hdpi/ic_holo_dark_tab.png
+* themes/res/drawable-hdpi/ic_holo_dark_usb.png
+* themes/res/drawable-hdpi/ic_holo_dark_user_defined_bookmark.png
+* themes/res/drawable-hdpi/ic_holo_dark_view.png
+* themes/res/drawable-hdpi/progress_bg_holo_dark.9.png
+* themes/res/drawable-hdpi/progress_primary_holo_dark.9.png
+* themes/res/drawable-hdpi/progress_secondary_holo_dark.9.png
+* themes/res/drawable-mdpi/
+* themes/res/drawable-mdpi/btn_holo_dark_check_off_normal.png
+* themes/res/drawable-mdpi/btn_holo_dark_check_on_normal.png
+* themes/res/drawable-mdpi/btn_holo_dark_check_on_normal_inverted.png
+* themes/res/drawable-mdpi/divider_horizontal_dark_opaque.9.png
+* themes/res/drawable-mdpi/divider_vertical_dark_opaque.9.png
+* themes/res/drawable-mdpi/ic_holo_dark_accept.png
+* themes/res/drawable-mdpi/ic_holo_dark_bookmarks.png
+* themes/res/drawable-mdpi/ic_holo_dark_close.png
+* themes/res/drawable-mdpi/ic_holo_dark_config.png
+* themes/res/drawable-mdpi/ic_holo_dark_contextual_action.png
+* themes/res/drawable-mdpi/ic_holo_dark_copy.png
+* themes/res/drawable-mdpi/ic_holo_dark_delete.png
+* themes/res/drawable-mdpi/ic_holo_dark_expander_close.png
+* themes/res/drawable-mdpi/ic_holo_dark_expander_open.png
+* themes/res/drawable-mdpi/ic_holo_dark_filesystem.png
+* themes/res/drawable-mdpi/ic_holo_dark_fs_locked.png
+* themes/res/drawable-mdpi/ic_holo_dark_fs_unlocked.png
+* themes/res/drawable-mdpi/ic_holo_dark_fs_warning.png
+* themes/res/drawable-mdpi/ic_holo_dark_history.png
+* themes/res/drawable-mdpi/ic_holo_dark_home.png
+* themes/res/drawable-mdpi/ic_holo_dark_layout.png
+* themes/res/drawable-mdpi/ic_holo_dark_navigation_drawer.png
+* themes/res/drawable-mdpi/ic_holo_dark_overflow.png
+* themes/res/drawable-mdpi/ic_holo_dark_print.png
+* themes/res/drawable-mdpi/ic_holo_dark_remote.png
+* themes/res/drawable-mdpi/ic_holo_dark_save.png
+* themes/res/drawable-mdpi/ic_holo_dark_sdcard.png
+* themes/res/drawable-mdpi/ic_holo_dark_search.png
+* themes/res/drawable-mdpi/ic_holo_dark_secure.png
+* themes/res/drawable-mdpi/ic_holo_dark_settings.png
+* themes/res/drawable-mdpi/ic_holo_dark_sort_alphabetically.png
+* themes/res/drawable-mdpi/ic_holo_dark_tab.png
+* themes/res/drawable-mdpi/ic_holo_dark_usb.png
+* themes/res/drawable-mdpi/ic_holo_dark_user_defined_bookmark.png
+* themes/res/drawable-mdpi/ic_holo_dark_view.png
+* themes/res/drawable-mdpi/progress_bg_holo_dark.9.png
+* themes/res/drawable-mdpi/progress_primary_holo_dark.9.png
+* themes/res/drawable-mdpi/progress_secondary_holo_dark.9.png
+* themes/res/drawable-nodpi/
+* themes/res/drawable-nodpi/dark_background.9.png
+* themes/res/drawable-nodpi/dark_background_disabled.9.png
+* themes/res/drawable-nodpi/dark_popup_background.9.png
+* themes/res/drawable-nodpi/dark_selectionbar.9.png
+* themes/res/drawable-nodpi/dark_statusbar.9.png
+* themes/res/drawable-nodpi/dark_theme_no_preview.png
+* themes/res/drawable-nodpi/dark_theme_preview.png
+* themes/res/drawable-nodpi/dark_titlebar.9.png
+* themes/res/drawable-xhdpi/
+* themes/res/drawable-xhdpi/btn_holo_dark_check_off_normal.png
+* themes/res/drawable-xhdpi/btn_holo_dark_check_on_normal.png
+* themes/res/drawable-xhdpi/btn_holo_dark_check_on_normal_inverted.png
+* themes/res/drawable-xhdpi/divider_horizontal_dark_opaque.9.png
+* themes/res/drawable-xhdpi/divider_vertical_dark_opaque.9.png
+* themes/res/drawable-xhdpi/ic_holo_dark_accept.png
+* themes/res/drawable-xhdpi/ic_holo_dark_bookmarks.png
+* themes/res/drawable-xhdpi/ic_holo_dark_close.png
+* themes/res/drawable-xhdpi/ic_holo_dark_config.png
+* themes/res/drawable-xhdpi/ic_holo_dark_contextual_action.png
+* themes/res/drawable-xhdpi/ic_holo_dark_copy.png
+* themes/res/drawable-xhdpi/ic_holo_dark_delete.png
+* themes/res/drawable-xhdpi/ic_holo_dark_expander_close.png
+* themes/res/drawable-xhdpi/ic_holo_dark_expander_open.png
+* themes/res/drawable-xhdpi/ic_holo_dark_filesystem.png
+* themes/res/drawable-xhdpi/ic_holo_dark_fs_locked.png
+* themes/res/drawable-xhdpi/ic_holo_dark_fs_unlocked.png
+* themes/res/drawable-xhdpi/ic_holo_dark_fs_warning.png
+* themes/res/drawable-xhdpi/ic_holo_dark_history.png
+* themes/res/drawable-xhdpi/ic_holo_dark_home.png
+* themes/res/drawable-xhdpi/ic_holo_dark_layout.png
+* themes/res/drawable-xhdpi/ic_holo_dark_navigation_drawer.png
+* themes/res/drawable-xhdpi/ic_holo_dark_overflow.png
+* themes/res/drawable-xhdpi/ic_holo_dark_print.png
+* themes/res/drawable-xhdpi/ic_holo_dark_remote.png
+* themes/res/drawable-xhdpi/ic_holo_dark_save.png
+* themes/res/drawable-xhdpi/ic_holo_dark_sdcard.png
+* themes/res/drawable-xhdpi/ic_holo_dark_search.png
+* themes/res/drawable-xhdpi/ic_holo_dark_secure.png
+* themes/res/drawable-xhdpi/ic_holo_dark_settings.png
+* themes/res/drawable-xhdpi/ic_holo_dark_sort_alphabetically.png
+* themes/res/drawable-xhdpi/ic_holo_dark_tab.png
+* themes/res/drawable-xhdpi/ic_holo_dark_usb.png
+* themes/res/drawable-xhdpi/ic_holo_dark_user_defined_bookmark.png
+* themes/res/drawable-xhdpi/ic_holo_dark_view.png
+* themes/res/drawable-xhdpi/progress_bg_holo_dark.9.png
+* themes/res/drawable-xhdpi/progress_primary_holo_dark.9.png
+* themes/res/drawable-xhdpi/progress_secondary_holo_dark.9.png
+* themes/res/drawable-xxhdpi/
+* themes/res/drawable-xxhdpi/ic_holo_dark_delete.png
+* themes/res/drawable-xxhdpi/ic_holo_dark_navigation_drawer.png
+* themes/res/drawable-xxhdpi/ic_holo_dark_print.png
+* themes/res/drawable-xxhdpi/ic_holo_dark_remote.png
+* themes/res/drawable-xxhdpi/ic_holo_dark_secure.png
+* themes/res/drawable-xxhdpi/ic_holo_dark_settings.png
+* themes/res/drawable/
+* themes/res/drawable/dark_checkable_selector.xml
+* themes/res/drawable/dark_holo_button_selector.xml
+* themes/res/drawable/dark_holo_list_selector_deselected.xml
+* themes/res/drawable/dark_holo_list_selector_selected.xml
+* themes/res/drawable/dark_holo_popup_selector.xml
+* themes/res/drawable/dark_holo_selection.xml
+* themes/res/drawable/dark_progress_horizontal_holo.xml
+* themes/res/values-af/
+* themes/res/values-af/strings.xml
+* themes/res/values-ar/
+* themes/res/values-ar/strings.xml
+* themes/res/values-az/
+* themes/res/values-az/strings.xml
+* themes/res/values-bn/
+* themes/res/values-bn/strings.xml
+* themes/res/values-ca/
+* themes/res/values-ca/strings.xml
+* themes/res/values-cs/
+* themes/res/values-cs/strings.xml
+* themes/res/values-da/
+* themes/res/values-da/strings.xml
+* themes/res/values-de/
+* themes/res/values-de/strings.xml
+* themes/res/values-el/
+* themes/res/values-el/strings.xml
+* themes/res/values-en-rAU/
+* themes/res/values-en-rAU/strings.xml
+* themes/res/values-en-rIN/
+* themes/res/values-en-rIN/strings.xml
+* themes/res/values-es-rUS/
+* themes/res/values-es-rUS/strings.xml
+* themes/res/values-es-rXA/
+* themes/res/values-es-rXA/strings.xml
+* themes/res/values-es/
+* themes/res/values-es/strings.xml
+* themes/res/values-et/
+* themes/res/values-et/strings.xml
+* themes/res/values-eu/
+* themes/res/values-eu/strings.xml
+* themes/res/values-fa/
+* themes/res/values-fa/strings.xml
+* themes/res/values-fi/
+* themes/res/values-fi/strings.xml
+* themes/res/values-fr-rCA/
+* themes/res/values-fr-rCA/strings.xml
+* themes/res/values-fr/
+* themes/res/values-fr/strings.xml
+* themes/res/values-gl/
+* themes/res/values-gl/strings.xml
+* themes/res/values-hr/
+* themes/res/values-hr/strings.xml
+* themes/res/values-hu/
+* themes/res/values-hu/strings.xml
+* themes/res/values-in/
+* themes/res/values-in/strings.xml
+* themes/res/values-it/
+* themes/res/values-it/strings.xml
+* themes/res/values-iw/
+* themes/res/values-iw/strings.xml
+* themes/res/values-ja/
+* themes/res/values-ja/strings.xml
+* themes/res/values-ko/
+* themes/res/values-ko/strings.xml
+* themes/res/values-ku/
+* themes/res/values-ku/strings.xml
+* themes/res/values-lb/
+* themes/res/values-lb/strings.xml
+* themes/res/values-lt/
+* themes/res/values-lt/strings.xml
+* themes/res/values-lv/
+* themes/res/values-lv/strings.xml
+* themes/res/values-nb/
+* themes/res/values-nb/strings.xml
+* themes/res/values-nl/
+* themes/res/values-nl/strings.xml
+* themes/res/values-pl/
+* themes/res/values-pl/strings.xml
+* themes/res/values-pt-rBR/
+* themes/res/values-pt-rBR/strings.xml
+* themes/res/values-pt-rPT/
+* themes/res/values-pt-rPT/strings.xml
+* themes/res/values-ro/
+* themes/res/values-ro/strings.xml
+* themes/res/values-ru/
+* themes/res/values-ru/strings.xml
+* themes/res/values-si/
+* themes/res/values-si/strings.xml
+* themes/res/values-sk/
+* themes/res/values-sk/strings.xml
+* themes/res/values-sr/
+* themes/res/values-sr/strings.xml
+* themes/res/values-sv/
+* themes/res/values-sv/strings.xml
+* themes/res/values-th/
+* themes/res/values-th/strings.xml
+* themes/res/values-tr/
+* themes/res/values-tr/strings.xml
+* themes/res/values-uk/
+* themes/res/values-uk/strings.xml
+* themes/res/values-vi/
+* themes/res/values-vi/strings.xml
+* themes/res/values-zh-rCN/
+* themes/res/values-zh-rCN/strings.xml
+* themes/res/values-zh-rHK/
+* themes/res/values-zh-rHK/strings.xml
+* themes/res/values-zh-rTW/
+* themes/res/values-zh-rTW/strings.xml
+* themes/res/values/
+* themes/res/values/dark_theme.xml
+* themes/res/values/strings.xml
+* themes/res/values/themes.xml
+* themes/src/
+* themes/src/com/
+* themes/src/com/cyanogenmod/
+* themes/src/com/cyanogenmod/filemanager/
+* themes/src/com/cyanogenmod/filemanager/themes/
+* themes/src/com/cyanogenmod/filemanager/themes/ThemeActivity.java
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* tests/res/ => app/src/androidTest/res/
+* tests/src/ => app/src/androidTest/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

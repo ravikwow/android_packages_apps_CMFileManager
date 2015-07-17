@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.cyanogenmod.filemanager"
+        minSdkVersion 19
+        targetSdkVersion 22
+
+        testApplicationId "com.cyanogenmod.filemanager.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        debug {
+            shrinkResources true
+            debuggable true
+            minifyEnabled false
+        }
+        release {
+            shrinkResources true
+            debuggable false
+            minifyEnabled true
+            proguardFile 'proguard.flags'
+        }
+    }
+}
+
+dependencies {
+    compile project(':libraries:truezip')
+    compile project(':libraries:android-syntax-highlight')
+    compile project(':libraries:color-picker-view')
+}
+
