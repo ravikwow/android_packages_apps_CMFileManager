@@ -326,9 +326,26 @@ public final class IntentsActionPolicy extends ActionsPolicy {
 
         // No registered application
         if (info.size() == 0) {
-            DialogHelper.showToast(ctx, R.string.msgs_not_registered_app, Toast.LENGTH_SHORT);
-            if (onDismissListener != null) {
-                onDismissListener.onDismiss(null);
+            try {
+                // Try to run via gallery
+                if (intent.getType().startsWith("video")) {
+                    Intent startVideoIntent = new Intent(Intent.ACTION_VIEW);
+                    startVideoIntent.setType(intent.getType());
+                    startVideoIntent.setData(intent.getData());
+                    startVideoIntent.setComponent(new ComponentName("com.android.gallery3d", "com.android.gallery3d.app.MovieActivity"));
+                    ctx.startActivity(startVideoIntent);
+                } else {
+                    DialogHelper.showToast(ctx, R.string.msgs_not_registered_app, Toast.LENGTH_SHORT);
+                    if (onDismissListener != null) {
+                        onDismissListener.onDismiss(null);
+                    }
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+                DialogHelper.showToast(ctx, R.string.msgs_not_registered_app, Toast.LENGTH_SHORT);
+                if (onDismissListener != null) {
+                    onDismissListener.onDismiss(null);
+                }
             }
             return;
         }
