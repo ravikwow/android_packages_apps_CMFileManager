@@ -15,13 +15,9 @@
  -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.cyanogenmod.filemanager"
-  android:versionCode="103"
-  android:versionName="2.0.0">
+  package="com.cyanogenmod.filemanager">
 
   <original-package android:name="com.cyanogenmod.filemanager" />
-
-  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
 
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
